@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tym.css">
+    <title>Timing</title>
+</head>
+
+<body>
+    <header>
+        <h1>Find My Bus</h1>
+        <p>presented by Backbenchers</p>
+    </header>
+    <p class="head">You May Submit Your Preferred Location</p>
+    <form method="post"  action="tym.php">
+        <div class="search">
+            <div class="from">
+                <h2>FROM</h2>
+                <input type="text" id="input" value="UDUMALAIPETTAI">
+            </div>
+            <div class="to">
+                <h2 class="too">TO</h2>
+                <input type="text" id="output" name="output" placeholder="please enter the prefered location" list="oplist">
+                <datalist id="oplist">
+                    <option value="SADAIYAPALAYAM">SADAIYAPALAYAM</option>
+                    <option value="LINGAMMAVUR">LINGAMMAVUR</option>
+                    <option value="KONDALAPATTI">KONDALAPATTI</option>
+                    <option value="KOZHIKUTTAI">KOZHIKUTTAI</option>
+                    <option value="JALLIPATTI">JALLIPATTI</option>
+                    <option value="GOMANGALAM">GOMANGALAM</option>
+                    <option value="TIRUMOORTHI HILLS">TIRUMOORTHI HILLS</option>
+                    <option value="MADATHUKULAM">MADATHUKULAM</option>
+                    <option value="ATHIMARATHUVALASU">ATHIMARATHUVALASU</option>
+                    <option value="KANIYUR">KANIYUR</option>
+                    <option value="KADATHUR">KADATHUR</option>
+                    <option value="K.P.SAMY PUTHUR">K.P.SAMY PUTHUR</option>
+                    <option value="RUTHRAPALAYAM">RUTHRAPALAYAM</option>
+                    <option value="KUMARALINGAM">KUMARALINGAM</option>
+                    <option value="REDDIPALAYAM">REDDIPALAYAM</option>
+                    <option value="NEGAMAM">NEGAMAM</option>
+                    <option value="UDUKKAMPALAYAM">UDUKKAMPALAYAM</option>
+                    <option value="VEETHAMPATTI">VEETHAMPATTI</option>
+                    <option value="ARASUR">ARASUR</option>
+                    <option value="L.N.PUDUR">L.N.PUDUR</option>
+                    <option value="NALLARCOLONY">NALLARCOLONY</option>
+                    <option value="KALLAPURAM">KALLAPURAM</option>
+                    <option value="ELAIYAMUTHUR">ELAIYAMUTHUR</option>
+                    <option value="VILAMARATHUPATTI">VILAMARATHUPATTI</option>
+                    <option value="AMMAPATTI">AMMAPATTI</option>
+                    <option value="KONGURARKUTTAI">KONGURARKUTTAI</option>
+                    <option value="D.V.PUTHUR">D.V.PUTHUR</option>
+                    <option value="KARATHOLUVU">KARATHOLUVU</option>
+                    <option value="ARJUNESWARAR KOVIL">ARJUNESWARAR KOVIL</option>
+                    <option value="POOLAVADI">POOLAVADI</option>
+                    <option value="K.P.SAMY PUDUR">K.P.SAMY PUDUR</option>
+                    <option value="POLLACHI">POLLACHI</option>
+                    <option value="THIPPAMPATTI">THIPPAMPATTI</option>
+                    <option value="MULLANGI VALASU">MULLANGI VALASU</option>
+                    <option value="OTTAMADAM">OTTAMADAM</option>
+                    <option value="N.K.PALAYAM">N.K.PALAYAM</option>
+                    <option value="POOLAVADI">POOLAVADI</option>
+                    <option value="KONGURARKUTTAI">KONGURARKUTTAI</option>
+                    <option value="BELLAMPATTI">BELLAMPATTI</option>
+                    <option value="A.M.VALASU">A.M.VALASU</option>
+                    <option value="KURICHIKOTTAI">KURICHIKOTTAI</option>
+                    <option value="PERIYAPATTI">PERIYAPATTI</option>
+                    <option value="K.N.PATTI">K.N.PATTI</option>
+                    <option value="APPILIPATTI">APPILIPATTI</option>
+                    <option value="AYYAMPALAYAM">AYYAMPALAYAM</option>
+                    <option value="MUTHUR">MUTHUR</option>
+                    <option value="KUTHIRAIYAR DAM">KUTHIRAIYAR DAM</option>
+                    <option value="KOLUMAM">KOLUMAM</option>
+                    <option value="RUTHRAPALAYAM">RUTHRAPALAYAM</option>
+                    <option value="AMARAVATHINAGAR">AMARAVATHINAGAR</option>
+                    <option value="MANUPATTI">MANUPATTI</option>
+                    <option value="GVG">GVG</option>
+                    <option value="BODIPATTI">BODIPATTI</option>
+                    <option value="SELLAPPAMPALAYAM">SELLAPPAMPALAYAM</option>
+                    <option value="VENASUPATTI">VENASUPATTI</option>
+                    <option value="AATHUPALLAM">AATHUPALLAM</option>
+                    <option value="AATHUR">AATHUR</option>
+                    <option value="NEELAMBUR">NEELAMBUR</option>
+                    <option value="GOVINDAPURAM">GOVINDAPURAM</option>
+                    <option value="MADATHUR">MADATHUR</option>
+                    <option value="C.K.PALAYAM">C.K.PALAYAM</option>
+                    <option value="PETHAPPAMPATTI">PETHAPPAMPATTI</option>
+                    <option value="MADATHUR">MADATHUR</option>
+                    <option value="MYLAPURAM">MYLAPURAM</option>
+                    <option value="PANDIYANKARADU">PANDIYANKARADU</option>
+                    <option value="PARUTHIYUR">PARUTHIYUR</option>
+                    <option value="PALARDURAI">PALARDURAI</option>
+                    <option value="VALAVADI">VALAVADI</option>
+                    <option value="VADABOOTHANAM">VADABOOTHANAM</option>
+                    <option value="R.C.PURAM">R.C.PURAM</option>
+                    <option value="NANJEGOUNDEN PUDUR">NANJEGOUNDEN PUDUR</option>
+                    <option value="MANNORPALAYAM">MANNORPALAYAM</option>
+                    <option value="THOTTIANDURAI">THOTTIANDURAI</option>
+                    <option value="MANNORPALAYAM">MANNORPALAYAM</option>
+                    <option value="C.PALAYAM">C.PALAYAM</option>
+                    <option value="THAMARAIPADI">THAMARAIPADI</option>
+                    <option value="THUNGAVI">THUNGAVI</option>
+                    <option value="C.P.SALAI">C.P.SALAI</option>
+                    <option value="BOLARAPATTI">BOLARAPATTI</option>
+                    <option value="ADIVALLI">ADIVALLI</option>
+                    <option value="SAMARAYPATTI">SAMARAYPATTI</option>
+                    <option value="ANDIPATTI">ANDIPATTI</option>
+                </datalist>
+                <input type="submit" value="SEARCH" id="btn">
+            </div>
+        </div>
+    </form>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <section>
+            <div class="share">
+                <a target="_blank" href="https://www.facebook.com/" class="fab fa-facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                <a target="_blank" href="https://www.twitter.com/" class="fab fa-twitter"></a>
+                <a target="_blank" href="https://www.youtube.com/" class="fab fa-youtube"></a>
+            </div>
+            <div class="credit"><font face="italic" color="red">Proudly</font><br><br><p><span class="heading">Developed || Designed || Maintained </span>- <span class="name1">NAVEEN KUMAR</span>
+                </p><br><br>
+                Email: &nbsp;<a href="mailto:backbenchers326@gmail.com">backbenchers326@gmail.com</a><br>
+            </div>
+
+        </section>
+    </footer>
+</body>
+
+</html>

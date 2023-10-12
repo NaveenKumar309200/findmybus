@@ -1,0 +1,179 @@
+body {
+    background-color: #ece2e2;
+    font-family: Arial, sans-serif;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    top: -19px;
+    position: relative;
+    font-size: 12px;
+}
+
+.head {
+    font-size: 35px;
+    font-family: 'Times New Roman', serif;
+    color: #f4ae72;
+    margin-top: 130px;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* search */
+
+.search {
+    height: 430px;
+    width: 600px;
+    margin-left: 30%;
+    background-color: rgba(185, 44, 44, 0.486);
+}
+
+h2 {
+    position: absolute;
+    top: 350px;
+    left: 450px;
+}
+
+#input {
+    width: 500px;
+    height: 24px;
+    margin-top: 120px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+.too {
+    position: absolute;
+    top: 500px;
+    left: 450px;
+}
+
+/* TO */
+
+.to {
+    margin-left: 400px;
+    width: 30px;
+    height: 300px;
+}
+
+#output {
+    width: 500px;
+    height: 24px;
+    margin-top: 120px;
+    margin-left: -343px;
+    border-radius: 5px;
+}
+
+#btn {
+    margin-top: 40px;
+    padding: 10px;
+    height: 50px;
+    width: 120px;
+    background-color: #f4ae72;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 400px;
+    background-color: black;
+    text-align: center;
+}
+
+.footer .share a {
+    margin: 2.3rem 10px 0 0;
+    max-height: 3.5rem;
+    width: 5.5rem;
+    line-height: 4.5rem;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+}
+
+.footer .credit {
+    margin-top: 2.5rem;
+    padding: 2rem;
+    padding-top: 2.5rem;
+    border-top: .1rem solid white;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.footer .credit a {
+    margin: 0.3rem;
+    max-height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.8rem;
+    color: #f4ae72;
+}
+
+.footer .credit a:hover {
+    background-color: red;
+}
+
+.name1 {
+    color: rgb(255, 7, 7);
+    font-weight: 700;
+}
+
+.heading {
+    font-weight: 600;
+}
+
+/* Media Query for screens smaller than 600px */
+
+@media (max-width: 767px) {
+    .search {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    h2 {
+        top: 350px;
+        left: 24%;
+        transform: translateX(-50%);
+    }
+
+    #input {
+        width: 80%;
+        margin-top: 80px;
+        margin-left: 40px;
+        margin-right: auto;
+    }
+
+    .too {
+        top: 480px;
+        left: 20%;
+        transform: translateX(-50%);
+    }
+
+    #output {
+        margin-top: 90px;
+        padding: 7px;
+        margin-left: -357px;
+        height: 12px;
+        width: 270px;
+        position: absolute;
+    }
+
+    #btn {
+        margin-top: 190px;
+        padding: 10px;
+        height: 40px;
+        width: 160px;
+      margin-left: -300px;
+    }
+
+}

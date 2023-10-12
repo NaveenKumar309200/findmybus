@@ -1,0 +1,623 @@
+body {
+    background-color: #ece2e2;
+    font-family: Arial, sans-serif;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3,
+.b {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    top: -19px;
+    position: relative;
+    font-size: 12px;
+}
+
+.heading {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 800;
+}
+
+/* bus */
+
+.bus {
+    width: 100%;
+    height: 80%;
+    margin-top: 90px;
+    text-transform: capitalize;
+}
+
+.bus a {
+    display: block;
+    text-align: center;
+}
+
+/* local */
+
+.local {
+    height: 400px;
+    width: 400px;
+    background-color: #f4ae72;
+    margin-left: 100px;
+    box-shadow: 0px 8px 8px 2px rgb(95, 93, 93);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.local img {
+    height: 250px;
+    width: 250px;
+    margin-left: 80px;
+}
+
+/* tirupur */
+
+.trp {
+    height: 400px;
+    width: 400px;
+    background-color: #f4ae72;
+    margin-left: 800px;
+    margin-top: -400px;
+    box-shadow: 0px 8px 8px 2px rgb(95, 93, 93);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.trp img {
+    height: 250px;
+    width: 250px;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+/* palani */
+
+.pal {
+    height: 400px;
+    width: 400px;
+    background-color: #f4ae72;
+    margin-top: 50px;
+    box-shadow: 0px 8px 8px 2px rgb(95, 93, 93);
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 100px;
+}
+
+.pal img {
+    height: 250px;
+    width: 250px;
+    margin-top: 18px;
+    margin-left: 15%;
+}
+
+/* coimbatore */
+
+.cbe {
+    height: 400px;
+    width: 400px;
+    background-color: #f4ae72;
+    margin-top: -400px;
+    margin-left: 800px;
+    box-shadow: 0px 8px 8px 2px rgb(95, 93, 93);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.cbe img {
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+/* extra */
+
+.extra {
+    margin-top: 190px;
+    font-weight: 799;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* facilities */
+
+.fac {
+    height: 900px;
+    width: 100%;
+    background-color: rgba(137, 43, 226, 0.425);
+    text-transform: capitalize;
+    margin-top: 90px;
+}
+
+.heading1 {
+    font-weight: 900;
+    font-size: 20px;
+    background-color: yellow;
+}
+
+/* parking */
+
+.parking img {
+    margin-top: 50px;
+    margin-left: 90px;
+    height: 195px;
+    width: 190px;
+}
+
+.parking {
+    height: 350px;
+    width: 550px;
+}
+
+.parking p {
+    height: 20px;
+    width: 290px;
+    margin-left: 55%;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.parking .span {
+    margin-left: 330px;
+    margin-top: -170px;
+}
+
+/* auto */
+
+.auto img {
+    position: absolute;
+    top: 225%;
+    margin-left: 60%;
+    height: 195px;
+    width: 190px;
+}
+
+.auto {
+    height: 350px;
+    width: 550px;
+
+}
+
+.auto p {
+    height: 20px;
+    width: 290px;
+    margin-left: 185%;
+    margin-top: -7px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.auto .span {
+    margin-left: 190%;
+    margin-top: -289px;
+    width: 290px;
+}
+
+/* atm */
+
+.atm img {
+    margin-top: -50px;
+    margin-left: 90px;
+    height: 195px;
+    width: 190px;
+}
+
+.atm {
+    height: 350px;
+    width: 550px;
+}
+
+.atm p {
+    height: 20px;
+    width: 290px;
+    margin-left: 55%;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.atm .span {
+    margin-left: 330px;
+    margin-top: -170px;
+}
+
+/* med */
+
+.medical img {
+    position: absolute;
+    top: 269%;
+    margin-left: 60%;
+    height: 195px;
+    width: 190px;
+}
+
+.medical {
+    height: 350px;
+    width: 550px;
+
+}
+
+.medical p {
+    height: 20px;
+    width: 290px;
+    margin-left: 185%;
+    margin-top: 3px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.medical .span {
+    margin-left: 190%;
+    margin-top: -375px;
+    width: 290px;
+}
+
+/* pol */
+
+.police img {
+    margin-top: -70px;
+    margin-left: 450px;
+    height: 195px;
+    width: 190px;
+}
+
+.police {
+    height: 350px;
+    width: 550px;
+}
+
+.police p {
+    height: 20px;
+    width: 290px;
+    margin-left: 120%;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.police .span {
+    margin-left: 700px;
+    margin-top: -192px;
+}
+
+.tnx {
+    color: blue;
+    font-size: 34px;
+    margin-top: 180px;
+    text-align: center;
+    font-family: italic;
+
+}
+
+
+/* footer */
+
+
+.footer {
+    background-color: black;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer .share a {
+    margin: 2.3rem 10px 0 0;
+    max-height: 3.5rem;
+    width: 5.5rem;
+    line-height: 4.5rem;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+}
+
+.footer .credit {
+    margin-top: 2.5rem;
+    padding: 2rem;
+    padding-top: 2.5rem;
+    border-top: .1rem solid white;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.footer .credit a {
+    margin: 0.3rem;
+    max-height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.8rem;
+    color: #f4ae72;
+}
+
+.footer .credit a:hover {
+    background-color: red;
+}
+
+.name {
+    color: red;
+    font-weight: 700;
+}
+
+.share a:hover {
+    color: red;
+}
+
+/* media query */
+
+@media (max-width: 767px) {
+
+    .b{
+        font-size: 12px;
+    }
+    .heading {
+        margin-top: 70px;
+        font-size: 20px;
+        font-style: bold;
+        font-weight: 800;
+        margin-right: 25px;
+    }
+
+    .fac {
+        height: 1800px;
+        margin-top: 90px;
+    }
+    /* local */
+
+    .local {
+        height: 280px;
+        width: 280px;
+        background-color: #f4ae72;
+        margin-left: 40px;
+        box-shadow: 0px 8px 8px 2px rgb(95, 93, 93);
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    .local img {
+        height: 120px;
+        width: 140px;
+        margin-left: 80px;
+    }
+
+    /* tirupur */
+
+    .trp {
+        height: 280px;
+        width:280px;
+        background-color: #f4ae72;
+        margin-left: 40px;
+        margin-top: 50px;
+        box-shadow: 0px 8px 8px 2px rgb(95, 93, 93);
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    .trp img {
+        height: 120px;
+        width: 140px;
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+
+    /* palani */
+
+    .pal {
+        height: 280px;
+        width: 280px;
+        background-color: #f4ae72;
+        margin-left: 40px;
+        box-shadow: 0px 8px 8px 2px rgb(95, 93, 93);
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    .pal img {
+        margin-top: 18px;
+        height: 120px;
+        width: 140px;
+        margin-left: 80px;
+    }
+
+    /* coimbatore */
+
+    .cbe {
+        height: 280px;
+        width:280px;
+        background-color: #f4ae72;
+        margin-left: 40px;
+        margin-top: 50px;
+        box-shadow: 0px 8px 8px 2px rgb(95, 93, 93);
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    .cbe img {
+        height: 120px;
+        width: 140px;
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+
+    /* extra */
+
+    .extra {
+        margin-top: 90px;
+        font-weight: 800;
+        font-size: 19px;        
+    }
+
+    /* facilities */
+
+    .fac {
+        height: 900px;
+        width: 99%;
+        background-color: rgba(137, 43, 226, 0.425);
+        text-transform: capitalize;
+        margin-top: 60px;
+    }
+
+    .heading1 {
+        font-weight: 900;
+        font-size: 12px;
+        background-color: yellow;
+    }
+
+    /* parking */
+
+    .parking img {
+        margin-left: 30px;
+        height: 135px;
+        width: 140px;
+    }
+
+    .parking {
+        height: 350px;
+        width: 550px;
+    }
+
+    .parking p {
+        height: 20px;
+        width: 140px;
+        margin-left: 35%;
+        line-height: 20px;
+        font-size: 12px;
+        margin-top: -14px;
+    }
+
+    .parking .span {
+        margin-left: 190px;
+        margin-top: -140px;
+    }
+
+    /* auto */
+
+    .auto img {
+        position: absolute;
+        top: 235%;
+        margin-left: 7.5%;
+        height: 135px;
+        width: 140px;
+    }
+
+    .auto {
+        height: 350px;
+        width: 550px;
+
+    }
+
+    .auto p {
+        height: 20px;
+        width: 140px;
+        margin-left: 35%;
+        line-height: 20px;
+        font-size: 12px;
+        margin-top: -13px;
+    }
+
+    .auto .span {
+        margin-left: 35%;
+        margin-top: -110px;
+        width: 290px;
+    }
+
+    /* atm */
+
+    .atm img {
+        margin-top: -190px;
+        margin-left: 30px;
+        height: 135px;
+        width: 140px;
+    }
+
+    .atm p {
+        height: 20px;
+        width: 140px;
+        margin-left: 35%;
+        line-height: 20px;
+        font-size: 12px;
+
+    }
+
+    .atm .span {
+        margin-left: 195px;
+        margin-top: -120px;
+    }
+
+    /* med */
+
+    .medical img {
+        top: 285%;
+        margin-left: 8%;
+        height: 145px;
+        width: 140px;
+    }
+
+    .medical {
+        height: 350px;
+        width: 550px;
+
+    }
+
+    .medical p {
+        width: 140px;
+        margin-left: 35%;
+        margin-top: 8px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .medical .span {
+        margin-left: 38%;
+        margin-top: -260px;
+        width: 290px;
+    }
+
+    /* pol */
+
+.police{
+    display: none;
+}
+
+/* footer */
+.footer {
+    margin-top: 25%;
+}
+
+.footer .share a {
+    height: 3.5rem;
+    width: 3.5rem;
+    line-height: 8.5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer .credit {
+    margin-top: 2.5rem;
+    padding: 2rem;
+    padding-top: 2.5rem;
+    border-top: .1rem solid white;
+    font-size: 1.0rem;
+    color: white;
+}
+
+
+
+.footer .credit a {
+    margin: 0.3rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: #f4ae72;
+}
+
+.tnx{
+    font-size: 25px;
+}
+
+}
